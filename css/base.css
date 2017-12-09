@@ -1,0 +1,50 @@
+/*
+* @Author: Administrator
+* @Date:   2017-11-06 11:47:53
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-11-09 12:48:28
+*/
+
+*,*::before,*::after{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+}
+
+body{
+	font-size:12px;
+	background-color:#f5f5f5;
+}
+
+.prz{
+	position: relative;
+}
+.pra{
+	position: absolute;
+}
+
+ul,ol,dl{
+	list-style: none;
+}
+input{
+	outline: none;
+	border:none;
+}
+a{
+	text-decoration: none;
+	color:#000;
+	/* 去掉移动端的点击默认样式 */
+	-webkit-tap-highlight-color:transparent;
+}
+/* 精灵图样式 */
+.icon{
+	background:url(../images/sprites.png) no-repeat;
+	background-size:200px 200px;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+
